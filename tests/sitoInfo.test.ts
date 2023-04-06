@@ -8,7 +8,7 @@ describe("getSiteInfo", () => {
   beforeAll(() => {
     jest.resetAllMocks();
   });
-  it("should test mock result for getOutages()", async () => {
+  it("should test mock result for getSiteInfo()", async () => {
     // spying GET request
     const spy = jest
       .spyOn(siteInfo, "getSiteInfo")
